@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./0-ressources/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./navbar_footer-css/navbar_footer.css">
+    <link rel="stylesheet" href="./index-css/index.css">
+    <title>cnes | Le site du Centre national d'études spatiales</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="nav_extend-off">
+        <img id="toggle-navbar" src="./0-ressources/extend.png" alt="icon nav deploy">
+    </div>
+    <nav class="nav_extend_none nav_extend">
+        <div class="nav_extend_img">
+            <img id="remove-navbar" src="./0-ressources/extend.png" alt="icon nav deploy">
+        </div>
+        <div class="nav_extend_ul">
+            <ul>
+                <li><a href="./actualites.html"> Actualités </a></li>
+                <li><a href="./agenda.html"> Agenda </a></li>
+                <li><a href="./cnes.html"> Le CNES </a></li>
+                <li><a href="./informer_espace.html"> S'informer sur l'Espace </a></li>
+                <li><a href="https://cnes.fr/fr/fiches_mission_alpha"> Bibliothèques Projets </a></li>
+                <li><a href="./rejoindre.html"> Nous Rejoindre </a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--------------->
+
+    <!-- Home Part -->
+    <div class="home">
+        <div>
+            <img src="./0-ressources/earth.png" alt="Earth">
+        </div>
+    </div>
+    <div class="home-link">
+        <div class="sous-home-link"><a href="https://presse.cnes.fr/fr/" target="_blank">Presse</a></div>
+        <div class="sous-home-link"><a href="https://phototheque.cnes.fr/cnes/homepage/" target="_blank">Photos</a></div>
+        <div class="sous-home-link"><a href="https://videotheque.cnes.fr/" target="_blank">Vidéos</a></div>
+    </div>
+    <!--------------->
+
+    <!-- Shop Part -->
+    <div class="shop">
+        <div>
+            <h2> Boutique </h2>
+        </div>
+        <div class="shop_illu">
+            <a href="https://maboutique.cnes.fr/fr/" target="_blank"><img src="./0-ressources/shop_cnes.png" alt="Official shop of the CNES france"></a>
+            <a href="https://maboutique.cnes.fr/fr/" target="_blank"><img src="./0-ressources/shop_cnes2.png" alt="Official shop of the CNES france"></a>
+        </div>
+    </div>
+    <!--------------->
+
+    <!-- Shop Part -->
+    <div class="spotlight">
+        <div>
+            <h2 class="title_spotlight"> À la UNE ! </h2>
+        </div>
+        <div>
+            <a href="https://podcast.cnes.fr/raconte-moi-lespace/" target="_blank"><img src="./0-ressources/podcast-raconte-moi-lespace.jpg" alt="podcast raconte moi l'espace"></a>
+        </div>
+    </div>
+    <!--------------->
+
+    <!-- Visit Card Part -->
+    <div class="visit_card">
+        <img src="./0-ressources/chevron_visit_card.png" alt="">
+        <a href="https://cnes-carte-de-visite-2022.fr/#quote"><h2> CNES <br> 2022 </h2></a> 
+        <img src="./0-ressources/chevron_visit_card2.png" alt="">
+    </div>
+    <!--------------->
+
+    <!-- Video Part -->
+    <div class="video">
+        <h2>Nos Dernières Vidéos</h2>
+        <div class="sous_video">
+            <iframe src="https://www.youtube.com/embed/x75cwrruwMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/jYDL1Wz7BC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/zkKt9pyseQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!--------------->
+
+    <!-- Footer -->
+    <footer class="footer_flex">
+        <div class="footer_align_txt_img">
+            <h4> Le CNES sur les Réseaux Sociaux </h4>
+            <div class="footer_img">
+                <a href="https://www.facebook.com/CNESFrance" target="_blank"><img src="./0-ressources/facebook_icon.png" alt="facebook icon"></a> 
+                <a href="https://twitter.com/CNES" target="_blank"><img src="./0-ressources/twitter_icon.png" alt="twitter icon"></a> 
+                <a href="https://www.youtube.com/CNES" target="_blank"><img src="./0-ressources/ytb_icon.png" alt="youtube icon"></a>
+                <a href="https://www.instagram.com/cnes_france/" target="_blank"><img src="./0-ressources/insta_icon.png" alt="instagram icon"></a>
+            </div>
+            <div class="footer_txt">
+                <div class="sous_txt">
+                    <a href="https://cnes.fr/fr/contactez-nous"> Contact </a>
+                </div>
+                <div class="sous_txt">
+                    <a href="https://cnes.fr/fr/node/29"> Mentions légales </a>
+                </div>
+                <div class="sous_txt">
+                    <div class="links_contains" onclick="toggleText()">Liens supplémentaires</div>
+                    <div id="hiddenText" style="display: none;">
+                    <ul class="ul_links">
+                        <li><a href="https://spacegate.cnes.fr/fr/" target="_blank"> space gate </a></li>
+                        <li><a href="https://jeunes.cnes.fr/fr/" target="_blank"> jeunes-cnes </a></li>
+                        <li><a href="https://www.cnes-observatoire.net/" target="_blank"> observatoire cnes </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--------------->
+
+    <script src="./navbar_footer-css/nav_deploy.js"></script>
+</body>
+</html>

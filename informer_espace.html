@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./0-ressources/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./navbar_footer-css/navbar_footer.css">
+    <link rel="stylesheet" href="./index-css/index.css">
+    <link rel="stylesheet" href="./informer_espace-css/informer_espace.css">
+    <title>cnes | S'informer sur l'Espace</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="nav_extend-off">
+        <img id="toggle-navbar" src="./0-ressources/extend.png" alt="icon nav deploy">
+    </div>
+    <nav class="nav_extend_none nav_extend">
+        <div class="nav_extend_img">
+            <img id="remove-navbar" src="./0-ressources/extend.png" alt="icon nav deploy">
+        </div>
+        <div class="nav_extend_ul">
+            <ul>
+                <li><a href="./actualites.html"> Actualités </a></li>
+                <li><a href="./agenda.html"> Agenda </a></li>
+                <li><a href="./cnes.html"> Le CNES </a></li>
+                <li><a href="./informer_espace.html"> S'informer sur l'Espace </a></li>
+                <li><a href="https://cnes.fr/fr/fiches_mission_alpha"> Bibliothèques Projets </a></li>
+                <li><a href="./rejoindre.html"> Nous Rejoindre </a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--------------->
+
+    <!-- Head -->
+    <header>
+        <a href="./index.html"><img src="./0-ressources/CNES_logo.png" alt="CNES logo"></a>
+    </header> 
+    <!--------------->
+
+    <!-- Informer Espace -->
+    <div class="informer"> 
+        <div>
+            <h2>S'informer sur l'Espace</h2>
+            <img src="./0-ressources/space.png" alt="space stars">
+        </div>
+        <div class="informer_txt">
+            <div>
+                <h4>CNESMAG</h4>
+            </div>
+            <div class="cnesmag">
+                <a href="https://cnes.fr/fr/cnesmag-94-france-usa-confiance-spatiale"><img src="./0-ressources/CNESMAG-1.png" alt="cnesmag"></a>
+            </div>
+            <div class="cnesmag">
+                <a href="https://cnes.fr/fr/cnesmag-93-swot-planete-eau"><img src="./0-ressources/CNESMAG-2.png" alt="cnesmag"></a>
+            </div>
+            <div class="cnesmag">
+                <a href="https://cnes.fr/fr/cnesmag-90-60-ans-pour-le-futur"><img src="./0-ressources/CNESMAG-3.png" alt="cnesmag"></a>
+            </div>
+            <div class="cnesmag">
+                <a href="https://cnes.fr/fr/cnesmag-92-galileo-constellation-services"><img src="./0-ressources/CNESMAG-4.png" alt="cnesmag"></a>
+            </div>
+            <div class="cnesmag">
+                <a href="https://cnes.fr/fr/cnesmag-91-innovation-catalyser-expertise-francaise"><img src="./0-ressources/CNESMAG-5.png" alt="cnesmag"></a>
+            </div>
+            <div class="cnesmag">
+                <a href="https://cnes.fr/fr/cnesmag-89-ballons-une-expertise-francaise"><img src="./0-ressources/CNESMAG-6.png" alt="cnesmag"></a>
+            </div>
+        </div>
+        <div class="informer_txt">
+            <div>
+                <h4>DOSSIERS D'ACTUALITÉ</h4>
+            </div>
+            <div class="cnesmag">
+                <a href="https://cnes.fr/fr/mission-juice-direction-jupiter-et-ses-lunes"><img src="./0-ressources/actu-1.png" alt="cnesmag"></a>
+            </div>
+            <div class="cnesmag">
+                <a href="https://cnes.fr/fr/swot-vigie-des-eaux"><img src="./0-ressources/actu-2.png" alt="cnesmag"></a>
+            </div>
+            <div class="cnesmag">
+                <a href="https://cnes.fr/fr/dossier-des-francais-dans-lespace-depuis-40-ans"><img src="./0-ressources/actu-3.png" alt="cnesmag"></a>
+            </div>
+            <div class="cnesmag">
+                <a href="https://cnes.fr/fr/dossier-ela-4-faire-decoller-ariane-6"><img src="./0-ressources/actu-4.png" alt="cnesmag"></a>
+            </div>
+        </div>
+    </div>
+    <!--------------->
+
+    <!-- Footer -->
+    <footer class="footer_flex">
+        <div class="footer_align_txt_img">
+            <h4> Le CNES sur les Réseaux Sociaux </h4>
+            <div class="footer_img">
+                <a href="https://www.facebook.com/CNESFrance" target="_blank"><img src="./0-ressources/facebook_icon.png" alt="facebook icon"></a> 
+                <a href="https://twitter.com/CNES" target="_blank"><img src="./0-ressources/twitter_icon.png" alt="twitter icon"></a> 
+                <a href="https://www.youtube.com/CNES" target="_blank"><img src="./0-ressources/ytb_icon.png" alt="youtube icon"></a>
+                <a href="https://www.instagram.com/cnes_france/" target="_blank"><img src="./0-ressources/insta_icon.png" alt="instagram icon"></a>
+            </div>
+            <div class="footer_txt">
+                <div class="sous_txt">
+                    <a href="https://cnes.fr/fr/contactez-nous"> Contact </a>
+                </div>
+                <div class="sous_txt">
+                    <a href="https://cnes.fr/fr/node/29"> Mentions légales </a>
+                </div>
+                <div class="sous_txt">
+                    <div class="links_contains" onclick="toggleText()">Liens supplémentaires</div>
+                    <div id="hiddenText" style="display: none;">
+                    <ul class="ul_links">
+                        <li><a href="https://spacegate.cnes.fr/fr/" target="_blank"> space gate </a></li>
+                        <li><a href="https://jeunes.cnes.fr/fr/" target="_blank"> jeunes-cnes </a></li>
+                        <li><a href="https://www.cnes-observatoire.net/" target="_blank"> observatoire cnes </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--------------->
+
+    <script src="./navbar_footer-css/nav_deploy.js"></script>
+</body>
+</html>

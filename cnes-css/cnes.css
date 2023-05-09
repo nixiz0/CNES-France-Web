@@ -1,0 +1,209 @@
+/* Header style */
+header {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+    header img {
+        width: 5.4em;
+        height: auto;
+    }
+
+
+@media(min-width:450px) { 
+        header img {
+            width: 7em;
+            height: auto;
+        }
+}
+
+
+@media(min-width:1000px) { 
+    header img {
+        width: 9em;
+        height: auto;
+    }
+}
+/* -------------- */
+
+/* Cnes style */
+.cnes {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+    .title_cnes {
+        margin-top: 3em;
+        padding: 1em;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+    .title_cnes h2 {
+        font-size: 2.2em;
+        color: rgb(5, 49, 126);
+        text-decoration: underline double rgb(2, 38, 102);
+        width: 5em;
+        margin: 0 auto;
+    }
+
+    .title_cnes p {
+        font-size: 1.4em;
+    }
+
+    .img_cnes {
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .img_cnes img {
+        border-radius: 2%;
+        width: 90%;
+        height: auto;
+    }
+
+    .txt_cnes {
+        text-align: center;
+    }
+
+    .txt_cnes h5 a {
+        color: rgb(3, 121, 175);
+        font-size: 1.2em;
+    }
+
+    .sous_txt_cnes {
+        margin-top: 2em;
+    }
+
+    .txt_cnes p {
+        padding: 0.5em;
+        font-size: 1.2em;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .sous_txt_cnes h4 {
+        font-size: 1.7em;
+        color: rgb(22, 187, 216);
+    }
+
+    .sous_txt_cnes img {
+        border-radius: 2%;
+        width: 100%;
+        height: auto;
+    }
+
+    .others_links {
+        margin-top: 1em;
+        margin-bottom: 4em;
+    }
+
+    .others_links a {
+        font-size: 1.3em;
+        color: rgb(22, 187, 216);
+    }
+
+    .others_links a:hover {
+        font-size: 1.8em;
+        color: rgb(19, 136, 157);
+    }
+
+
+@media(min-width:450px) {  
+    .title_cnes h2 {
+        font-size: 2.6em;
+        width: 47%;
+    }
+}
+
+
+@media(min-width:800px) { 
+.cnes {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+    .title_cnes {
+        margin-top: 3em;
+        padding: 1em;
+        text-align: center;
+        margin-bottom: 3em;
+    }
+
+    .title_cnes h2 {
+        font-size: 3.5em;
+        width: 40%;
+    }
+
+    .title_cnes p {
+        font-size: 1.4em;
+    }
+
+    .img_cnes {
+        margin-bottom: 0.8em;
+        text-align: center;
+    }
+
+    .img_cnes img {
+        border-radius: 2%;
+        width: 50%;
+        height: auto;
+    }
+
+    .txt_cnes {
+        text-align: center;
+    }
+
+    .txt_cnes h5 a {
+        color: rgb(3, 121, 175);
+        font-size: 1.2em;
+    }
+
+    .sous_txt_cnes {
+        margin-top: 2em;
+    }
+
+    .txt_cnes p {
+        padding: 0.5em;
+        font-size: 1.2em;
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+
+    .sous_txt_cnes h4 {
+        font-size: 2em;
+        color: rgb(22, 187, 216);
+    }
+
+    .sous_txt_cnes img {
+        border-radius: 2%;
+        width: 55%;
+        height: auto;
+    }
+
+    .others_links {
+        margin-top: 1em;
+        margin-bottom: 4em;
+    }
+
+    .others_links a {
+        font-size: 1.8em;
+        color: rgb(22, 187, 216);
+    }
+
+    .others_links a:hover {
+        font-size: 1.8em;
+        color: rgb(19, 136, 157);
+    }
+}
+
+
+@media(min-width:1100px) { 
+    .title_cnes h2 {
+        font-size: 3.7em;
+        width: 6.5em;
+        margin-bottom: 1em;
+    }
+}
+/* -------------- */

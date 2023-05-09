@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./0-ressources/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./navbar_footer-css/navbar_footer.css">
+    <link rel="stylesheet" href="./index-css/index.css">
+    <link rel="stylesheet" href="./actualites-css/actualites.css">
+    <title>cnes | Actualités</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="nav_extend-off">
+        <img id="toggle-navbar" src="./0-ressources/extend.png" alt="icon nav deploy">
+    </div>
+    <nav class="nav_extend_none nav_extend">
+        <div class="nav_extend_img">
+            <img id="remove-navbar" src="./0-ressources/extend.png" alt="icon nav deploy">
+        </div>
+        <div class="nav_extend_ul">
+            <ul>
+                <li><a href="./actualites.html"> Actualités </a></li>
+                <li><a href="./agenda.html"> Agenda </a></li>
+                <li><a href="./cnes.html"> Le CNES </a></li>
+                <li><a href="./informer_espace.html"> S'informer sur l'Espace </a></li>
+                <li><a href="https://cnes.fr/fr/fiches_mission_alpha"> Bibliothèques Projets </a></li>
+                <li><a href="./rejoindre.html"> Nous Rejoindre </a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--------------->
+
+    <!-- Head -->
+    <header>
+        <a href="./index.html"><img src="./0-ressources/CNES_logo.png" alt="CNES logo"></a>
+    </header>
+    <!--------------->
+
+    <!-- Actu -->
+    <div class="actu">
+        <div class="title_actu">
+            <h2> Actualités </h2>
+        </div>
+        <div class="actu_illu">
+            <a href="https://entreprises.cnes.fr/fr/entreprises-partenaires/appels-projets/challenge-rt-jumeau-numerique-sante-du-spationaute" target="_blank">
+                <h4>11 Avril 2023</h4>
+                <img src="./0-ressources/agenda_11_Avril.png" alt="actualité 11 Avril">
+            </a> 
+            <a href="https://enseignants-mediateurs.cnes.fr/fr/candidatures-appel-projets-campagne-lycee-vols-paraboliques-2024" target="_blank">
+                <h4>13 Avril 2023</h4>
+                <img src="./0-ressources/agenda_13_Avril.png" alt="actualité 13 Avril">
+            </a> 
+        </div>
+        <div class="actu_illu">
+            <a href="https://cnes.fr/fr/lanceurs-perseus-en-route-vers-les-fusees-reutilisables" target="_blank">
+                <h4>17 Avril 2023</h4>
+                <img src="./0-ressources/agenda_17_Avril.png" alt="actualité 17 Avril">
+            </a> 
+            <a href="https://cnes.fr/fr/svom-destination-chine-pour-les-instruments-eclairs-et-mxt" target="_blank">
+                <h4>15 Mars 2023</h4>
+                <img src="./0-ressources/agenda_15_Mars.png" alt="actualité 15 Mars">
+            </a> 
+        </div>
+        <div class="actu_illu">
+            <a href="https://cnes.fr/fr/lanceurs-ariane-6-les-dernieres-etapes-avant-le-premier-vol" target="_blank">
+                <h4>23 Mars 2023</h4>
+                <img src="./0-ressources/agenda_23_Mars.png" alt="actualité 23 Mars">
+            </a> 
+            <a href="https://cnes.fr/fr/rover-rashid-une-cooperation-internationale-au-service-de-la-science" target="_blank">
+                <h4>23 Mars 2023</h4>
+                <img src="./0-ressources/agenda_23_Mars2.png" alt="actualité 23 Mars">
+            </a> 
+        </div>
+        <div class="actu_illu">
+            <a href="https://cnes.fr/fr/lanceurs-des-batiments-tertiaires-plus-verts-au-csg" target="_blank">
+                <h4>31 Mars 2023</h4>
+                <img src="./0-ressources/agenda_31_Mars.png" alt="actualité 31 Mars">
+            </a> 
+        </div>
+    </div>
+    <!--------------->
+
+    <!-- Footer -->
+    <footer class="footer_flex">
+        <div class="footer_align_txt_img">
+            <h4> Le CNES sur les Réseaux Sociaux </h4>
+            <div class="footer_img">
+                <a href="https://www.facebook.com/CNESFrance" target="_blank"><img src="./0-ressources/facebook_icon.png" alt="facebook icon"></a> 
+                <a href="https://twitter.com/CNES" target="_blank"><img src="./0-ressources/twitter_icon.png" alt="twitter icon"></a> 
+                <a href="https://www.youtube.com/CNES" target="_blank"><img src="./0-ressources/ytb_icon.png" alt="youtube icon"></a>
+                <a href="https://www.instagram.com/cnes_france/" target="_blank"><img src="./0-ressources/insta_icon.png" alt="instagram icon"></a>
+            </div>
+            <div class="footer_txt">
+                <div class="sous_txt">
+                    <a href="https://cnes.fr/fr/contactez-nous"> Contact </a>
+                </div>
+                <div class="sous_txt">
+                    <a href="https://cnes.fr/fr/node/29"> Mentions légales </a>
+                </div>
+                <div class="sous_txt">
+                    <div class="links_contains" onclick="toggleText()">Liens supplémentaires</div>
+                    <div id="hiddenText" style="display: none;">
+                    <ul class="ul_links">
+                        <li><a href="https://spacegate.cnes.fr/fr/" target="_blank"> space gate </a></li>
+                        <li><a href="https://jeunes.cnes.fr/fr/" target="_blank"> jeunes-cnes </a></li>
+                        <li><a href="https://www.cnes-observatoire.net/" target="_blank"> observatoire cnes </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--------------->
+
+    <script src="./navbar_footer-css/nav_deploy.js"></script>
+</body>
+</html>

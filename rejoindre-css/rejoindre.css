@@ -1,0 +1,310 @@
+/* Header style */
+header {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+    header img {
+        width: 5.4em;
+        height: auto;
+    }
+
+
+@media(min-width:450px) { 
+        header img {
+            width: 7em;
+            height: auto;
+        }
+}
+
+
+@media(min-width:1000px) { 
+    header img {
+        width: 9em;
+        height: auto;
+    }
+}
+/* -------------- */
+
+/* Rejoindre style */
+.rejoindre {
+    margin-top: 2em;
+}
+
+    .rejoindre h2 {
+        font-size: 2.4em;
+        text-align: center;
+        color: rgb(11, 198, 218);
+    }
+
+    .sous_rejoindre {
+        margin-top: 3em;
+        margin-bottom: 1em;
+        padding-left: 1%;
+        padding-right: 1%;
+        text-align: center;
+    }
+
+    .sous_rejoindre h4 {
+        color: rgb(35, 137, 226);
+        font-size: 1.7em;
+    }
+
+    .sous_rejoindre p {
+        margin-top: 2em;
+        font-size: 1.2em;
+        padding: 1em;
+        border-top: 2px solid rgb(11, 198, 218);
+        border-bottom: 2px solid rgb(11, 198, 218);
+    }
+
+    .txt_rejoindre {
+        text-align: center;
+        padding: 1em;
+        margin-top: 2em;
+        font-size: 1.2em;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .centre_spatial {
+        text-align: center;
+        margin-top: 3em;
+        background-color: rgb(212, 212, 212, 0.5);
+        border-radius: 2%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .centre_spatial h5 {
+        color: rgb(35, 137, 226);
+        font-size: 1.8em;
+    }
+
+    .txt_centre_spatial {
+        text-align: center;
+    }
+
+    .txt_centre_spatial img {
+        padding: 1em;
+        border-radius: 5%;
+        width: 80%;
+        height: auto;
+    }
+
+    .txt_centre_spatial h5 {
+        font-size: 1.4em;
+        color: rgb(35, 137, 226);
+    }
+
+    .txt_centre_spatial p {
+        font-size: 1.3em;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .offre{
+        margin-top: 2em;
+        margin-bottom: 2em;
+        padding: 0em;
+    }
+
+    .offre a h2 {
+        font-size: 2em;
+        color: rgb(16, 171, 232)
+    }
+
+    .offre a h2:hover {
+        color: rgb(16, 96, 128)
+    }
+
+
+@media(min-width:450px) { 
+
+}
+
+
+@media(min-width:800px) { 
+    .rejoindre {
+        margin-top: 3em;
+    }
+    
+        .rejoindre h2 {
+            font-size: 3.3em;
+            text-align: center;
+            color: rgb(11, 198, 218);
+        }
+        
+    .sous_rejoindre {
+        margin-top: 4em;
+        margin-bottom: 2em;
+        padding-left: 7%;
+        padding-right: 7%;
+        text-align: center;
+    }
+
+    .sous_rejoindre h4 {
+        color: rgb(35, 137, 226);
+        font-size: 2em;
+    }
+
+    .sous_rejoindre p {
+        margin-top: 2em;
+        font-size: 1.4em;
+        padding: 1em;
+        border-top: 2px solid rgb(11, 198, 218);
+        border-bottom: 2px solid rgb(11, 198, 218);
+    }
+
+    .txt_rejoindre {
+        text-align: center;
+        padding: 1em;
+        margin-top: 2em;
+        font-size: 1.4em;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .centre_spatial {
+        text-align: center;
+        margin-top: 6em;
+        background-color: rgb(212, 212, 212, 0.5);
+        border-radius: 2%;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .centre_spatial h5 {
+        color: rgb(35, 137, 226);
+        font-size: 1.8em;
+    }
+
+    .txt_centre_spatial {
+        text-align: center;
+    }
+
+    .txt_centre_spatial img {
+        padding: 2em;
+        border-radius: 5%;
+        width: 30em;
+        height: auto;
+    }
+
+    .txt_centre_spatial h5 {
+        font-size: 1.4em;
+        color: rgb(35, 137, 226);
+    }
+
+    .txt_centre_spatial p {
+        font-size: 1.3em;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .offre{
+        padding: 5em;
+    }
+
+    .offre a h2 {
+        font-size: 3.1em;
+        color: rgb(16, 171, 232)
+    }
+
+    .offre a h2:hover {
+        color: rgb(16, 96, 128)
+    }
+}
+
+
+@media(min-width:1100px) { 
+    .rejoindre {
+        margin-top: 4em;
+    }
+    
+        .rejoindre h2 {
+            font-size: 3.5em;
+            text-align: center;
+            color: rgb(11, 198, 218);
+        }
+        
+    .sous_rejoindre {
+        margin-top: 5em;
+        margin-bottom: 2em;
+        padding-left: 15%;
+        padding-right: 15%;
+        text-align: center;
+    }
+
+    .sous_rejoindre h4 {
+        color: rgb(35, 137, 226);
+        font-size: 2em;
+    }
+
+    .sous_rejoindre p {
+        margin-top: 2em;
+        font-size: 1.5em;
+        padding: 1em;
+        border-top: 2px solid rgb(11, 198, 218);
+        border-bottom: 2px solid rgb(11, 198, 218);
+    }
+
+    .txt_rejoindre {
+        text-align: center;
+        padding: 1em;
+        margin-top: 2em;
+        font-size: 1.4em;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .centre_spatial {
+        text-align: center;
+        margin-top: 6em;
+        background-color: rgb(212, 212, 212, 0.5);
+        border-radius: 2%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .centre_spatial h5 {
+        color: rgb(35, 137, 226);
+        font-size: 1.8em;
+    }
+
+    .txt_centre_spatial {
+        text-align: center;
+    }
+
+    .txt_centre_spatial img {
+        padding: 2em;
+        border-radius: 5%;
+        width: 38em;
+        height: auto;
+    }
+
+    .txt_centre_spatial h5 {
+        font-size: 1.4em;
+        color: rgb(35, 137, 226);
+    }
+
+    .txt_centre_spatial p {
+        font-size: 1.3em;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .offre{
+        padding: 5em;
+    }
+
+    .offre a h2 {
+        font-size: 3.1em;
+        color: rgb(16, 171, 232)
+    }
+
+    .offre a h2:hover {
+        color: rgb(16, 96, 128)
+    }
+}
+/* -------------- */
