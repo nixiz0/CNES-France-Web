@@ -1,15 +1,14 @@
-<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="CNES | S'informer sur l'Espace">
+    <meta name="description" content="CNES | Contact CNES">
     <link rel="icon" href="./0-ressources/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets-css/navbar_footer-css/navbar_footer.css">
     <link rel="stylesheet" href="./assets-css/index-css/index.css">
-    <link rel="stylesheet" href="./assets-css/informer_espace-css/informer_espace.css">
-    <title>cnes | S'informer sur l'Espace</title>
+    <link rel="stylesheet" href="./assets-css/contact-css/contact.css">
+    <title>cnes | Contact CNES</title>
 </head>
 <body>
     <!-- Navbar -->
@@ -36,54 +35,64 @@
     <!-- Head -->
     <header>
         <a href="./index.html"><img src="./0-ressources/CNES_logo.png" alt="CNES logo"></a>
-    </header> 
+    </header>
     <!--------------->
 
-    <!-- Informer Espace -->
-    <div class="informer"> 
-        <div>
-            <h2>S'informer sur l'Espace</h2>
-            <img src="./0-ressources/space.png" alt="space stars">
+    <!-- Form -->
+    <div class="main_contact">
+        <div class="background--custom2">
+            <canvas id="canvas2"> 
         </div>
-        <div class="informer_txt">
-            <div>
-                <h4>CNESMAG</h4>
+        <div class="txt_form">
+            <div class="bottom_form"></div>
+            <div class="title_form">
+                <h3>Nous Contacter</h3>
             </div>
-            <div class="cnesmag">
-                <a href="https://cnes.fr/fr/cnesmag-94-france-usa-confiance-spatiale"><img src="./0-ressources/CNESMAG-1.png" alt="cnesmag"></a>
-            </div>
-            <div class="cnesmag">
-                <a href="https://cnes.fr/fr/cnesmag-93-swot-planete-eau"><img src="./0-ressources/CNESMAG-2.png" alt="cnesmag"></a>
-            </div>
-            <div class="cnesmag">
-                <a href="https://cnes.fr/fr/cnesmag-90-60-ans-pour-le-futur"><img src="./0-ressources/CNESMAG-3.png" alt="cnesmag"></a>
-            </div>
-            <div class="cnesmag">
-                <a href="https://cnes.fr/fr/cnesmag-92-galileo-constellation-services"><img src="./0-ressources/CNESMAG-4.png" alt="cnesmag"></a>
-            </div>
-            <div class="cnesmag">
-                <a href="https://cnes.fr/fr/cnesmag-91-innovation-catalyser-expertise-francaise"><img src="./0-ressources/CNESMAG-5.png" alt="cnesmag"></a>
-            </div>
-            <div class="cnesmag">
-                <a href="https://cnes.fr/fr/cnesmag-89-ballons-une-expertise-francaise"><img src="./0-ressources/CNESMAG-6.png" alt="cnesmag"></a>
-            </div>
-        </div>
-        <div class="informer_txt">
-            <div>
-                <h4>DOSSIERS D'ACTUALITÉ</h4>
-            </div>
-            <div class="cnesmag">
-                <a href="https://cnes.fr/fr/mission-juice-direction-jupiter-et-ses-lunes"><img src="./0-ressources/actu-1.png" alt="cnesmag"></a>
-            </div>
-            <div class="cnesmag">
-                <a href="https://cnes.fr/fr/swot-vigie-des-eaux"><img src="./0-ressources/actu-2.png" alt="cnesmag"></a>
-            </div>
-            <div class="cnesmag">
-                <a href="https://cnes.fr/fr/dossier-des-francais-dans-lespace-depuis-40-ans"><img src="./0-ressources/actu-3.png" alt="cnesmag"></a>
-            </div>
-            <div class="cnesmag">
-                <a href="https://cnes.fr/fr/dossier-ela-4-faire-decoller-ariane-6"><img src="./0-ressources/actu-4.png" alt="cnesmag"></a>
-            </div>
+            <!-- data-netlify="true"" For use the form on Netlify -->
+            <form name="myForm" onsubmit="return validateForm()" method="post" data-netlify="true">
+               <table class="form-style">
+                  <tr>
+                     <td>
+                        <label>
+                           Votre nom <span class="required">*</span>
+                        </label>
+                     </td>
+                     <td>
+                        <input type="text" name="name" class="long"/>
+                        <span class="error" id="errorname"></span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <label>
+                           Votre adresse e-mail <span class="required">*</span>
+                        </label>
+                     </td>
+                     <td>
+                        <input type="email" name="email" class="long"/>
+                        <span class="error" id="erroremail"></span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <label>
+                           Message <span class="required">*</span>
+                        </label>
+                     </td>
+                     <td>
+                        <textarea name="message" class="long field-textarea"></textarea>
+                        <span class="error" id="errormsg"></span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td>
+                        <input type="submit" value="Envoyer">      
+                        <input type="reset" value="Réinitialiser"> 
+                     </td>
+                  </tr>
+               </table>
+            </form>
         </div>
     </div>
     <!--------------->
@@ -120,5 +129,11 @@
     <!--------------->
 
     <script src="./assets-css/navbar_footer-css/nav_deploy.js"></script>
+    <script src="./assets-css/contact-css/contact.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/greentfrapp/pocoloco@minigl/minigl.js"></script>
+    <script>
+    var gradient = new Gradient();
+    gradient.initGradient("#canvas2");
+    </script>
 </body>
 </html>
